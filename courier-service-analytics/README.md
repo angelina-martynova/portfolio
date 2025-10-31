@@ -54,9 +54,9 @@ Here are a few examples of Redash visualizations created for this analysis:
 
 | Metric | Example |
 |---------|----------|
-| User and courier growth | ![Example](analysis/01_users_and_couriers_growth/dashboard_total_users_vs_couriers.png) |
-| Active user share | ![Example](analysis/03_active_users_and_couriers_share/dashboard_active_shares.png) |
-| Hourly load | ![Example](analysis/08_hourly_load_and_cancel_rate/dashboard_hourly_load.png) |
+| User and courier growth | ![Example](analysis/01_users_and_couriers_growth/сhart_total_users_vs_couriers.png) |
+| Active user share | ![Example](analysis/03_active_users_and_couriers_share/сhart_active_shares.png) |
+| Hourly load | ![Example](analysis/08_hourly_load_and_cancel_rate/сhart_hourly_load.png) |
 
 ---
 
@@ -72,4 +72,4 @@ Here are a few examples of Redash visualizations created for this analysis:
 ## 🪄 Author
 **Angelina Martynova**  
 *Data & Product Analytics Portfolio*  
-📧 [Your Email] | 🌐 [LinkedIn Profile]
+📧 [angelinaangelina531@gmail.com] | 🌐 []
