@@ -1,25 +1,25 @@
-# 🚚 Courier Service Analytics
+# Courier Service Analytics
 
 This project contains a series of SQL-based analytical tasks aimed at exploring user and courier activity, growth, and operational efficiency within a delivery service.  
 All analysis and visualizations were performed in **Redash** using real-like datasets.
 
 ---
 
-## 🧩 Project Overview
+## Project Overview
 
 The goal of this project is to:
 - analyze user and courier growth dynamics,
 - evaluate engagement and delivery efficiency,
 - visualize the results through dashboards.
 
-### 📊 Tools Used
+### Tools Used
 - **SQL (PostgreSQL syntax)** for data analysis  
 - **Redash** for query execution and visualization  
 - **CSV datasets** for raw and aggregated data
 
 ---
 
-## 📂 Repository Structure
+## Repository Structure
 
 | Folder | Description |
 |---------|-------------|
@@ -33,7 +33,7 @@ Each analysis folder includes:
 
 ---
 
-## 🧠 Analytical Tasks
+## Analytical Tasks
 
 | # | Task | Focus |
 |---|------|--------|
@@ -48,7 +48,7 @@ Each analysis folder includes:
 
 ---
 
-## 📈 Example Dashboards
+## Example Dashboards
 
 Here are a few examples of Redash visualizations created for this analysis:
 
@@ -60,7 +60,7 @@ Here are a few examples of Redash visualizations created for this analysis:
 
 ---
 
-## 🧭 Insights Summary
+## Insights Summary
 
 - The **user base grows faster** than couriers, showing strong demand growth.  
 - The **relative growth rates** of new users are more volatile than couriers’.  
@@ -69,7 +69,7 @@ Here are a few examples of Redash visualizations created for this analysis:
 
 ---
 
-## 🪄 Author
+## Author
 **Angelina Martynova**  
 *Data & Product Analytics Portfolio*  
 📧 [angelinaangelina531@gmail.com] | 🌐 []
