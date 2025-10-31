@@ -10,7 +10,7 @@ All analysis and visualizations were performed in **Redash** using real-like dat
 The goal of this project is to:
 - analyze user and courier growth dynamics,
 - evaluate engagement and delivery efficiency,
-- and visualize the results through dashboards.
+- visualize the results through dashboards.
 
 ### 📊 Tools Used
 - **SQL (PostgreSQL syntax)** for data analysis  
