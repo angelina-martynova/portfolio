@@ -18,4 +18,5 @@ Analyze how fast the courier service audience grows — both users and couriers 
 - Total users vs. couriers over time
 
 ![Chart](сhart_new_users_vs_couriers.png)
+
 ![Chart](сhart_total_users_vs_couriers.png)
