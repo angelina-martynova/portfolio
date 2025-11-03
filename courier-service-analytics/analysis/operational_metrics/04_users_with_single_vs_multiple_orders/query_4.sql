@@ -43,4 +43,5 @@ SELECT p.date,
        ROUND((SELECT single_order_users FROM single_order_users WHERE single_order_users.date = p.date) * 100.0 / paying_users, 2) AS single_order_users_share,
        ROUND((SELECT several_order_users FROM several_order_users WHERE several_order_users.date = p.date) * 100.0 / paying_users, 2) AS several_orders_users_share
 FROM paying_users_daily p
-ORDER BY p.date;
+
+ORDER BY p.date
