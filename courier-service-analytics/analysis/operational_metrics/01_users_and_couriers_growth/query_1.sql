@@ -40,4 +40,4 @@ SELECT date,
        SUM(COALESCE(new_couriers, 0)) OVER (ORDER BY date)::INTEGER AS total_couriers
 FROM new_users_daily
 FULL JOIN new_couriers_daily USING (date)
-ORDER BY date;
+ORDER BY date
