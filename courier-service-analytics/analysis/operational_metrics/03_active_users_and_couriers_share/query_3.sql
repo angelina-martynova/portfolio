@@ -57,4 +57,5 @@ FROM paying_users_daily d
 JOIN active_couriers_daily c USING (date)
 JOIN users_cumulative u USING (date)
 JOIN couriers_cumulative k USING (date)
-ORDER BY d.date;
+
+ORDER BY d.date
