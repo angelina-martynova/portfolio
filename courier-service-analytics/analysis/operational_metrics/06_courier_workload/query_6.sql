@@ -41,4 +41,5 @@ SELECT date,
 FROM users_daily
 LEFT JOIN couriers_daily USING (date)
 LEFT JOIN orders_daily USING (date)
-ORDER BY date;
+
+ORDER BY date
