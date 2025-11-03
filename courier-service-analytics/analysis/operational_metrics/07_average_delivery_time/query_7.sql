@@ -19,4 +19,4 @@ SELECT time::date AS date,
 FROM delivery_time
 LEFT JOIN courier_actions USING (order_id)
 GROUP BY date
-ORDER BY date;
+ORDER BY date
