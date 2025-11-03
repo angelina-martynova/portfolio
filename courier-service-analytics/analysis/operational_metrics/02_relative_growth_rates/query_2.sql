@@ -53,4 +53,5 @@ SELECT date,
        ROUND((total_users * 100.0 / NULLIF(LAG(total_users) OVER (ORDER BY date), 0)) - 100, 2) AS total_users_growth,
        ROUND((total_couriers * 100.0 / NULLIF(LAG(total_couriers) OVER (ORDER BY date), 0)) - 100, 2) AS total_couriers_growth
 FROM combined_totals
-ORDER BY date;
+
+ORDER BY date
