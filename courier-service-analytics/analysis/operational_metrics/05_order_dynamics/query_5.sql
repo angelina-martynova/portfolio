@@ -56,4 +56,5 @@ SELECT o.date,
 FROM orders_daily o
 LEFT JOIN first_orders_daily f ON o.date = f.date
 LEFT JOIN new_users_orders_daily n ON o.date = n.date
-ORDER BY o.date;
+
+ORDER BY o.date
