@@ -26,4 +26,4 @@ SELECT hour::INT,
        canceled_orders,
        ROUND(canceled_orders::DECIMAL / all_orders, 3) AS cancel_rate
 FROM hourly_orders
-ORDER BY hour;
+ORDER BY hour
