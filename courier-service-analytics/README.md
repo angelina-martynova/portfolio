@@ -43,25 +43,25 @@ Each analysis folder includes:
 ### Operational Metrics
 | # | Task | Focus |
 |---|------|--------|
-| 1 | [Users and couriers growth](analysis/01_users_and_couriers_growth/) | Growth of users and couriers over time |
-| 2 | [Relative growth rates](analysis/02_relative_growth_rates/) | Daily percentage growth of new and total users/couriers |
-| 3 | [Active users and couriers share](analysis/03_active_users_and_couriers_share/) | Share of paying users and active couriers |
-| 4 | [Single vs multiple orders](analysis/04_users_with_single_vs_multiple_orders/) | Distribution of users by number of orders per day |
-| 5 | [Order dynamics](analysis/05_order_dynamics/) | Total, first-time, and new-user orders |
-| 6 | [Courier workload](analysis/06_courier_workload/) | Orders and users per active courier |
-| 7 | [Average delivery time](analysis/07_average_delivery_time/) | Average delivery duration (minutes) |
-| 8 | [Hourly load & cancel rate](analysis/08_hourly_load_and_cancel_rate/) | Orders and cancellations by hour |
+| 1 | [Users and couriers growth](analysis/operational_metrics/01_users_and_couriers_growth/) | Growth of users and couriers over time |
+| 2 | [Relative growth rates](analysis/operational_metrics/02_relative_growth_rates/) | Daily percentage growth of new and total users/couriers |
+| 3 | [Active users and couriers share](analysis/operational_metrics/03_active_users_and_couriers_share/) | Share of paying users and active couriers |
+| 4 | [Single vs multiple orders](analysis/operational_metrics/04_users_with_single_vs_multiple_orders/) | Distribution of users by number of orders per day |
+| 5 | [Order dynamics](analysis/operational_metrics/05_order_dynamics/) | Total, first-time, and new-user orders |
+| 6 | [Courier workload](analysis/operational_metrics/06_courier_workload/) | Orders and users per active courier |
+| 7 | [Average delivery time](analysis/operational_metrics/07_average_delivery_time/) | Average delivery duration (minutes) |
+| 8 | [Hourly load & cancel rate](analysis/operational_metrics/08_hourly_load_and_cancel_rate/) | Orders and cancellations by hour |
 
 ### Product Economics Metrics
 | # | Task | Focus |
 |---|------|--------|
-| 1 | [Revenue and cumulative growth]() | Daily and cumulative product revenue dynamics |
-| 2 | Average order value | Average order revenue and its trend |
-| 3 | Repeat purchase rate | Frequency of repeat user orders |
-| 4 | User retention rate | Retained users by cohort and time period |
-| 5 | Revenue per user | ARPU and monetization structure |
-| 6 | Order cancellation loss | Estimated lost revenue due to cancellations |
-| 7 | Profit and margin analysis | Profit calculation and margin trends |
+| 1 | [Revenue and cumulative growth](analysis/product_economics_metrics/01_revenue_and_cumulative_growth/) | Daily and cumulative product revenue dynamics |
+| 2 | [Average order value](analysis/product_economics_metrics/02_average_order_value/) | Average order revenue and its trend |
+| 3 | [Repeat purchase rate](analysis/product_economics_metrics/03_repeat_purchase_rate/) | Frequency of repeat user orders |
+| 4 | [User retention rate](analysis/product_economics_metrics/04_user_retention_rate/) | Retained users by cohort and time period |
+| 5 | [Revenue per user](analysis/product_economics_metrics/05_revenue_per_user/) | ARPU and monetization structure |
+| 6 | [Order cancellation loss](analysis/product_economics_metrics/06_order_cancellation_loss/) | Estimated lost revenue due to cancellations |
+| 7 | [Profit and margin analysis](analysis/product_economics_metrics/07_profit_and_margin_analysis/) | Profit calculation and margin trends |
 ---
 
 ## Example Dashboards
