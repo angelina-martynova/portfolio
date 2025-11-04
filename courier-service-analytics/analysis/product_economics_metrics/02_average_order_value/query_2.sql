@@ -1,8 +1,8 @@
 -- =========================================================
 -- Project: Courier Service Analytics
 -- Query 02: Average Order Value (AOV)
--- Goal: Calculate the average order value per day and analyze
---       its trend over time.
+-- Goal: Calculate average revenue per user (ARPU), average revenue 
+--       per paying user (ARPPU), and average order value (AOV) by day.
 -- =========================================================
 
 WITH successful_orders AS (
