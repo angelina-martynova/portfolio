@@ -17,9 +17,8 @@ Calculate complete financial performance including costs, taxes, and profitabili
 - Positive cumulative gross profit achieved after overcoming initial costs
 
 ### Visualizations
-- Daily revenue, costs, and profit
-- Cumulative financial performance
-- Profitability ratios over time
+- Gross profit
+- Total gross profit
 
 ![Chart](chart_gross_profit.png)
 ![Chart](chart_total_gross_profit.png)
