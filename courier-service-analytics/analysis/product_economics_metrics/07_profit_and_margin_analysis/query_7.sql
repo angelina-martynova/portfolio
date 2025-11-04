@@ -1,7 +1,8 @@
 -- =========================================================
 -- Project: Courier Service Analytics
 -- Query 07: Profit and Margin Analysis
--- Goal: 
+-- Goal: Calculate detailed profitability metrics including revenue, costs,
+--       taxes, gross profit, and cumulative financial performance.
 -- =========================================================
 
 WITH successful_orders AS (
