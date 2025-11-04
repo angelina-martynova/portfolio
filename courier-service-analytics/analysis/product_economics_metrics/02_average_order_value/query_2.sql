@@ -13,7 +13,7 @@ WITH successful_orders AS (
        WHERE order_id NOT IN (SELECT order_id 
                               FROM user_actions 
                               WHERE action='cancel_order'
-                              )
+       )
 ),
                         
 daily_revenue AS (
