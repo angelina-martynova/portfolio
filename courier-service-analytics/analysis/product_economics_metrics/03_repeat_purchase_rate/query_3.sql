@@ -1,6 +1,6 @@
 -- =========================================================
 -- Project: Courier Service Analytics
--- Query 02: Repeat Purchase Rate
+-- Query 03: Repeat Purchase Rate
 -- Goal: Calculate the daily share of users who made repeat orders
 --       (two or more successful orders).
 -- =========================================================
