@@ -1,8 +1,8 @@
 -- =========================================================
 -- Project: Courier Service Analytics
 -- Query 03: Repeat Purchase Rate
--- Goal: Calculate the daily share of users who made repeat orders
---       (two or more successful orders).
+-- Goal: Calculate cumulative running metrics for ARPU, ARPPU, and AOV
+--       to track performance trends over time.
 -- =========================================================
 
 WITH successful_orders AS (
