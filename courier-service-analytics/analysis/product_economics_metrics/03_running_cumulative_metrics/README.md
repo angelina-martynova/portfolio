@@ -17,4 +17,4 @@ Track cumulative performance metrics over time to understand long-term trends in
 - Cumulative ARPU, ARPPU, and AOV trends
 - Long-term performance trajectory
 
-![Chart](chart_running_metrics.png)
+![Chart](chart_running_arpu_arppu_aov.png)
