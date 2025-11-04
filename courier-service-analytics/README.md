@@ -68,7 +68,7 @@ Each analysis folder includes:
 
 | Metric | Example |
 |---------|----------|
-| User and courier growth | ![Example](/operational_metrics/01_users_and_couriers_growth/сhart_total_users_vs_couriers.png) |
+| User and courier growth | ![Example](analysis/operational_metrics/01_users_and_couriers_growth/сhart_total_users_vs_couriers.png) |
 | Active user share | ![Example](analysis/operational_metrics/03_active_users_and_couriers_share/сhart_active_shares.png) |
 | Hourly load | ![Example](analysis/product_economics_metrics/01_revenue_and_cumulative_growth/chart_revenue.png) |
 
