@@ -1,7 +1,8 @@
 -- =========================================================
 -- Project: Courier Service Analytics
 -- Query 05: Revenue per User
--- Goal: 
+-- Goal: Calculate total revenue and segment it by new vs. existing users,
+--       showing revenue share for each segment.
 -- =========================================================
 
 WITH successful_orders AS (
