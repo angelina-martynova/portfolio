@@ -66,26 +66,24 @@ Each analysis folder includes:
 
 ## Example Dashboards
 
-Here are a few examples of Redash visualizations created for this analysis:
-
 | Metric | Example |
 |---------|----------|
-| User and courier growth | ![Example](analysis/01_users_and_couriers_growth/сhart_total_users_vs_couriers.png) |
-| Active user share | ![Example](analysis/03_active_users_and_couriers_share/сhart_active_shares.png) |
-| Hourly load | ![Example](analysis/08_hourly_load_and_cancel_rate/сhart_hourly_load.png) |
+| User and courier growth | ![Example](/operational_metrics/01_users_and_couriers_growth/сhart_total_users_vs_couriers.png) |
+| Active user share | ![Example](analysis/operational_metrics/03_active_users_and_couriers_share/сhart_active_shares.png) |
+| Hourly load | ![Example](analysis/product_economics_metrics/01_revenue_and_cumulative_growth/chart_revenue.png) |
 
 ---
 
 ## Insights Summary
 
-- The **user base grows faster** than couriers, showing strong demand growth.  
-- The **relative growth rates** of new users are more volatile than couriers’.  
-- The **average courier workload** stabilizes as courier count increases.  
-- The **cancel rate peaks** during evening hours when order volume is highest.  
+- The **user base grows faster** than couriers, reflecting rising demand.  
+- **Revenue increases steadily**, with strong correlation to active user growth.  
+- **Average delivery time remains stable**, indicating balanced operations.  
+- **Cancellation-related losses** form a measurable but manageable portion of total revenue.  
 
 ---
 
-## Author
-**Angelina Martynova**  
-*Data & Product Analytics Portfolio*  
-📧 [angelinaangelina531@gmail.com] | 🌐 []
+**Contact:**  
+**Angelina Martynova** 
+[angelinaangelina531@gmail.com]
+[]
