@@ -1,7 +1,8 @@
 -- =========================================================
 -- Project: Courier Service Analytics
 -- Query 06: Order Cancellation Loss
--- Goal: 
+-- Goal: Analyze product-level revenue performance and calculate
+--       each product's share of total revenue, grouping minor products.
 -- =========================================================
 
 WITH successful_orders AS (
