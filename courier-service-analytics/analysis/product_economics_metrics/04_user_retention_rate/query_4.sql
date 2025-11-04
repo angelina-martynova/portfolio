@@ -1,7 +1,8 @@
 -- =========================================================
 -- Project: Courier Service Analytics
 -- Query 04: User Retention Rate
--- Goal: 
+-- Goal: Analyze ARPU, ARPPU, and AOV metrics by day of week
+--       for a specific two-week period.
 -- =========================================================
 
 WITH successful_orders AS (
