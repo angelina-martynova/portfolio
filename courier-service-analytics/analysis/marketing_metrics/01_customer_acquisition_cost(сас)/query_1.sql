@@ -1,3 +1,9 @@
+-- =========================================================
+-- Project: Courier Service Analytics
+-- Query 01: Customer Acquisition Cost (CAC)
+-- Goal: Calculate cost per acquired paying user for each marketing campaign.
+-- =========================================================
+
 WITH paying_users_from_campaign AS (
     SELECT COUNT(DISTINCT user_id) AS count_paying_users,
            CASE 
@@ -82,4 +88,5 @@ WITH paying_users_from_campaign AS (
 SELECT ads_campaign, 
 ROUND(250000/count_paying_users::decimal, 2) AS cac
 FROM paying_users_from_campaign
+
 ORDER BY cac DESC
