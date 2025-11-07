@@ -1,17 +1,16 @@
 # Courier Service Analytics
 
-This project presents a comprehensive analytical exploration of courier service data — including operational efficiency, product economics, and user behavior metrics.  
-All SQL queries and visualizations were performed in **Redash** using simulated datasets.
+This portfolio project contains a series of SQL-based analytical cases exploring operational, product, and marketing performance of a courier delivery service.  
+All analysis and dashboards were built in **Redash** using real-like datasets.
 
 ---
 
 ## Project Overview
 
-The project is divided into several analytical blocks:
-
-- **Operational Metrics** — growth and engagement of users and couriers, workload, delivery time, and other performance indicators.  
-- **Product Economics Metrics** — financial performance of the product, including revenue, margins, repeat purchases, and retention.  
-- *(Upcoming)* **Marketing Metrics** — analysis of conversion, acquisition cost, and ROI.
+The goal of this repository is to demonstrate practical analytical skills across three key domains:
+- **Operational Analytics** — user/courier growth, order dynamics, efficiency metrics.
+- **Product Analytics** — revenue structure, margins, and retention.
+- **Marketing Analytics** — campaign performance, CAC, ROI, and cohort behavior.
 
 
 ### Tools Used
@@ -28,6 +27,7 @@ The project is divided into several analytical blocks:
 | `data/` | Raw input datasets (users, couriers, orders, products, actions) |
 | `analysis/operational_metrics/` | SQL tasks, results, and dashboards for operational analysis |
 | `analysis/product_economics_metrics/` | SQL tasks, results, and dashboards for product-level economic metrics |
+| `analysis/marketing_metrics/` | Marketing performance — CAC, ROI, campaign analysis |
 
 
 Each analysis folder includes:
@@ -62,6 +62,18 @@ Each analysis folder includes:
 | 5 | [Revenue per user](analysis/product_economics_metrics/05_revenue_per_user/) | ARPU and monetization structure |
 | 6 | [Order cancellation loss](analysis/product_economics_metrics/06_order_cancellation_loss/) | Estimated lost revenue due to cancellations |
 | 7 | [Profit and margin analysis](analysis/product_economics_metrics/07_profit_and_margin_analysis/) | Profit calculation and margin trends |
+
+### Marketing Metrics
+| # | Task | Focus |
+|---|------|--------|
+| 1 | [Customer acquisition cost(сас)](analysis/marketing_metrics/01_customer_acquisition_cost(сас)/) | Cost efficiency of user acquisition per campaign |
+| 2 | [Return on investment(roi)](analysis/marketing_metrics/02_return_on_investment(roi)/) | Profitability and return on advertising spend |
+| 3 | [Average check by campaign](analysis/marketing_metrics/03_average_check_by_campaign/) | Average order value comparison between campaigns |
+| 4 | [User Retention](analysis/marketing_metrics/04_user_retention/) | Daily retention rates and cohort analysis |
+| 5 | [Campaign Cohorts](analysis/marketing_metrics/05_campaign_cohorts/) | Retention analysis for each marketing campaign |
+| 6 | [Order cancellation loss](analysis/marketing_metrics/06_order_cancellation_loss/) | Estimated lost revenue due to cancellations |
+| 7 | [Cumulative arppu vs cac](analysis/marketing_metrics/06_cumulative_arppu_vs_cac/) | Payback period and revenue per user vs acquisition cost |
+
 ---
 
 ## Example Dashboards
@@ -74,12 +86,11 @@ Each analysis folder includes:
 
 ---
 
-## Insights Summary
+## Key Insights
 
-- The **user base grows faster** than couriers, reflecting rising demand.  
-- **Revenue increases steadily**, with strong correlation to active user growth.  
-- **Average delivery time remains stable**, indicating balanced operations.  
-- **Cancellation-related losses** form a measurable but manageable portion of total revenue.  
+- User growth outpaces courier growth, indicating strong demand.
+- Product margins vary across segments but show positive retention trends.
+- Marketing ROI highlights clear performance differences between campaigns. 
 
 ---
 
