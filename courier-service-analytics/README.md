@@ -80,9 +80,9 @@ Each analysis folder includes:
 
 | Metric | Example |
 |---------|----------|
-| User and courier growth | ![Example](analysis/operational_metrics/01_users_and_couriers_growth/сhart_total_users_vs_couriers.png) |
 | Active user share | ![Example](analysis/operational_metrics/03_active_users_and_couriers_share/сhart_active_shares.png) |
 | Revenue | ![Example](analysis/product_economics_metrics/01_revenue_and_cumulative_growth/chart_revenue.png) |
+| Cumulative arppu vs cac | ![Example](analysis/marketing_metrics/06_cumulative_arppu_vs_cac/chart_first_campaign.png) |
 
 ---
 
