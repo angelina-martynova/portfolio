@@ -1,3 +1,9 @@
+-- =========================================================
+-- Project: Marketing Campaigns Analysis
+-- Query 05: Campaign Cohorts
+-- Goal: Calculate retention rates for users from each marketing campaign.
+-- =========================================================
+
 WITH first_actions AS (
     SELECT MIN(time::DATE) AS start_date, 
             user_id,
@@ -93,3 +99,4 @@ SELECT ads_campaign,
 FROM retention_data
 WHERE day_number IN (0, 1, 7)
 ORDER BY ads_campaign, day_number
+
