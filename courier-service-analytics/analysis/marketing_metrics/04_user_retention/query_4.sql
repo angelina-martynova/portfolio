@@ -1,3 +1,9 @@
+-- =========================================================
+-- Project: Marketing Campaigns Analysis
+-- Query 04: User Retention
+-- Goal: Calculate daily retention rate for all users grouped by cohorts.
+-- =========================================================
+
 WITH first_actions AS (
     SELECT DISTINCT user_id, 
         MIN(time::DATE) OVER (PARTITION BY user_id) AS start_date,
@@ -21,4 +27,5 @@ SELECT start_month,
         day_number,
         ROUND(active_users::decimal/cohort_size, 2) AS retention
 FROM retention_data
+
 ORDER BY start_date, day_number
