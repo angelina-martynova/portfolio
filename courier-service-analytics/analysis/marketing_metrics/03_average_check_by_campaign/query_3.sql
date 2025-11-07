@@ -1,3 +1,9 @@
+-- =========================================================
+-- Project: Marketing Campaigns Analysis
+-- Query 03: Average Check by Campaign
+-- Goal: Calculate average order value for users from each marketing campaign.
+-- =========================================================
+
 WITH successful_orders_from_campaign AS (
     SELECT time::DATE AS date, 
             order_id,
@@ -105,4 +111,5 @@ SELECT ads_campaign,
         ROUND(AVG(user_avg_check)::decimal, 2) AS avg_check
 FROM user_avg_checks
 GROUP BY ads_campaign
+
 ORDER BY avg_check DESC
