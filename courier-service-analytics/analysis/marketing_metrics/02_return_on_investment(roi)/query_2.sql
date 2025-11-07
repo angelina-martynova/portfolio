@@ -1,3 +1,9 @@
+-- =========================================================
+-- Project: Marketing Campaigns Analysis
+-- Query 02: Return on Investment (ROI)
+-- Goal: Calculate return on investment for each marketing campaign.
+-- =========================================================
+
 WITH successful_orders_from_campaign AS (
     SELECT order_id,
            UNNEST(product_ids) AS product_id,
@@ -89,4 +95,5 @@ revenue_campaigns AS (
 SELECT ads_campaign, 
 ROUND(((revenue - 250000) / 250000 * 100)::decimal, 2) AS roi
 FROM revenue_campaigns
+
 ORDER BY roi DESC
