@@ -21,5 +21,5 @@ Track cumulative revenue per paying user versus acquisition cost over time to de
 - Payback period analysis
 - Cumulative revenue growth
 
-![Chart](chart_arppu_vs_cac_campaign1.png)
-![Chart](chart_arppu_vs_cac_campaign2.png)
+![Chart](chart_first_campaign.png)
+![Chart](chart_second_campaign.png)
