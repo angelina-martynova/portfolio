@@ -1,3 +1,9 @@
+-- =========================================================
+-- Project: Marketing Campaigns Analysis
+-- Query 06: Cumulative ARPPU vs CAC
+-- Goal: Track cumulative revenue per paying user vs acquisition cost over time.
+-- =========================================================
+
 WITH campaign_users_actions AS (
     SELECT user_id,
             order_id,
@@ -93,4 +99,5 @@ SELECT CONCAT('Кампания № ', ads_campaign) AS ads_campaign,
         ROUND(SUM(revenue) OVER (PARTITION BY ads_campaign ORDER BY date) / paying_users::DECIMAL, 2) AS cumulative_arppu,
         cac
 FROM daily_revenue
+
 LEFT JOIN campaign_cac USING(ads_campaign)
