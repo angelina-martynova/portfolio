@@ -59,9 +59,9 @@ Each analysis folder includes:
 
 | Metric | Visualization |
 |---------|----------|
-| Top Products | ![Top Products](analysis/product_analysis/chart_top_products.png) |
-| Revenue by Country | ![Revenue by Country](analysis/geographic_analysis/chart_sales_by_country.png) |
-| Monthly Order Trends | ![Monthly Trends](analysis/time_analysis/chart_monthly_trends.png) |
+| Top Products | ![Top Products](product_analysis/chart_top_products.png) |
+| Revenue by Country | ![Revenue by Country](geographic_analysis/chart_sales_by_country.png) |
+| Monthly Order Trends | ![Monthly Trends](time_analysis/chart_monthly_trends.png) |
 
 ---
 
